@@ -1,8 +1,6 @@
 image:
   file: Dockerfile
 tasks:
-  - command: pwsh
-  - command: Install-Module Polaris -Scope CurrentUser
   - command: . .\RunPolaris.ps1
 ports:
  - port: 8000

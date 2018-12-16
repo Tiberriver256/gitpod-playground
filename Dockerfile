@@ -9,3 +9,5 @@ RUN apt-get update && apt-get install -y \
 
 # Give back control
 USER root
+
+ENTRYPOINT ["pwsh"]
