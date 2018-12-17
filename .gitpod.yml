@@ -1,6 +1,6 @@
 image:
   file: Dockerfile
 tasks:
-  - command: . .\RunPolaris.ps1
+  - command: pwsh
 ports:
  - port: 8000
